@@ -57,6 +57,9 @@ NS_ASSUME_NONNULL_BEGIN
 */
 @property (nonatomic, readonly, assign) BOOL isDefault;
 
+// MARK: Last 4 digits of the card - used for retaining last selected card in drop-in
+@property (nonatomic, readonly, assign) NSString paymentDescription;
+
 @end
 
 NS_ASSUME_NONNULL_END
